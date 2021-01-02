@@ -95,6 +95,8 @@ text-align: center;
 color: #86878B;
 }
 .ul__bgcolor_w{
-background-color: #FFFFFF;
+background: #FFFFFF;
 }
-
+.ul__bgcolor_o{
+background:#D98943;
+}
