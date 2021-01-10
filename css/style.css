@@ -1,5 +1,6 @@
 @import url("pricing.css");
 @import url("awesome.css");
+@import url("customer.css");
 
 .container{
 margin: auto;
@@ -15,6 +16,9 @@ margin: 0px;
 padding: 0px;
 }
 .awesome{
+width: 100%;
+}
+.opinion{
 width: 100%;
 }
 
