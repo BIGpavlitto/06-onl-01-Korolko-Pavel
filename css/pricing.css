@@ -1,3 +1,7 @@
+.pricing{
+width: 100%;
+background: #f5f5f5;
+}
 .pricing__header {
 padding-top: 80px;
 }

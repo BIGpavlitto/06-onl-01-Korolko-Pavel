@@ -1,6 +1,7 @@
 @import url("pricing.css");
 @import url("awesome.css");
 @import url("customer.css");
+@import url("social_media.css");
 
 .container{
 margin: auto;
@@ -8,21 +9,10 @@ max-width:1170px;
 padding: 0px 15px;
 position:relative;
 }
-.pricing{
-width: 100%;
-background: #f5f5f5;
-}
 *{
 margin: 0px;
 padding: 0px;
 }
-.awesome{
-width: 100%;
-}
-.opinion{
-width: 100%;
-}
-
 
 
 
