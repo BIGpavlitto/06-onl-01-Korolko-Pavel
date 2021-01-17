@@ -171,7 +171,6 @@ align-items: center;
 background-color: transparent;
 padding: 11px 26px;
 text-align: center;
-font-size: 16px;
 cursor: pointer;
 font-family: Open Sans;
 font-style: normal;
@@ -180,6 +179,7 @@ font-size: 15px;
 line-height: 20px;
 color: #FFFFFF;
 border:1px solid #FFFFFF;
+border-radius: 10px 10px;
 }
 .axure__footer_button:hover{
 background-color: rgb(247, 241, 242, .5);
