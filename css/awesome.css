@@ -1,9 +1,10 @@
 .awesome{
 width: 100%;
+padding-top:-250px;
 }
 .awesome__h_title {
 width: 480px;
-margin: 100px auto 0px;
+margin: 0px auto 0px;
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
@@ -81,4 +82,15 @@ font-weight: normal;
 font-size: 14px;
 line-height: 19px;
 color: #000000;
+}
+@media screen and (max-width: 1150px){
+    .awesome__content{
+        flex-wrap: wrap;
+        justify-content:center;
+        margin:36px auto 0px auto;
+    
+    }
+    .awesome__c_column{
+        padding:10px;
+    }
 }

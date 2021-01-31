@@ -104,3 +104,13 @@ background: #FFFFFF;
 .ul__bgcolor_o{
 background:#D98943;
 }
+@media screen and (max-width: 1124px){
+    .pricing__content_column{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 820px){
+    .pricing__content_column{
+        padding: 10px;
+    }
+}

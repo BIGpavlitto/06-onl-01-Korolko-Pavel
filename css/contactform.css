@@ -4,12 +4,12 @@ width:100%;
 .contact__form{
 width:100%;
 }
-.contact__form__header{
+.contact__header{
 width:100%;
 margin-top:80px;
 margin-bottom:90px;
 }
-.contact__form__header_title{
+.contact__header_title{
 width: 409px;
 margin:auto;
 font-family: Raleway;
@@ -21,7 +21,7 @@ text-align: center;
 text-transform: uppercase;
 color: #212121;
 }
-.contact__form__header_title::after{
+.contact__header_title::after{
 display: block;
 margin:34px auto;
 content:"";
@@ -29,7 +29,7 @@ width:64px;
 height:2px;
 background-color: red;
 }
-.contact__form__header_text{
+.contact__header_text{
 margin:auto;
 width: 363px;
 font-family: Open Sans;
@@ -42,6 +42,7 @@ color: #86878B;
 .contact__form__main{
 width:100%;
 display:flex;
+flex-wrap: wrap;
 justify-content: space-between;
 }
 .contact__form__column{
@@ -54,7 +55,7 @@ line-height: 19px;
 color: #BDBDBD;
 overflow: hidden;
 }
-.contact__form__footer{
+.contact__footer{
 width:100%;
 margin:68px auto 44px;
 }
@@ -113,9 +114,24 @@ margin-bottom: 27px;
 width:100%;
 }
 .contact__form_textarea{
-height:195px;
+height:189px;
 width:100%;
 border:none;
 outline: none;
 resize:none;
+padding-bottom: 4px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #BDBDBD;
+}
+@media screen and (max-width: 1150px){
+    .contact__form__main{
+        margin:auto;
+        width:100%;
+        justify-content: center;
+
+    }
 }
